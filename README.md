@@ -2,9 +2,9 @@
 
 ### Running the app ###
 
-git clone https://github.com/playedinane/hometrack.git
-cd hometrack
-npm install
+git clone https://github.com/playedinane/hometrack.git  
+cd hometrack  
+npm install  
 
 ### Running the app ###
 
