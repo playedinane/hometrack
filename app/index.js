@@ -13,6 +13,10 @@ app.post('/', function (req, res) {
 	res.status(response.status).send(response.body);
 });
 
+app.get('/', function (req, res) {
+	res.send('please refer to <a href="https://github.com/playedinane/hometrack">here</a>');
+});
+
 app.listen(process.env.PORT || 3000, function () {
 	console.log('Example app listening on port 3000!');
 });
