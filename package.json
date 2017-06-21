@@ -1,0 +1,30 @@
+{
+  "name": "hometrack",
+  "version": "1.0.0",
+  "description": "Trial",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://playedinane@bitbucket.org/playedinane/trial.git"
+  },
+  "author": "danielpayne",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.13.4",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "mocha-bamboo-reporter": "^1.1.1",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.3"
+  }
+}
