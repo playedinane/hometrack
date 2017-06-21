@@ -2,6 +2,12 @@
 
 ### Running the app ###
 
+git clone https://github.com/playedinane/hometrack.git
+cd hometrack
+npm install
+
+### Running the app ###
+
 node app/index.js
 
 ### Testing the app ###
